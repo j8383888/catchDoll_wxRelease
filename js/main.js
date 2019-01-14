@@ -3790,7 +3790,6 @@ var catchDoll;
                 return;
             }
             var protoName = cmd["GetType"]();
-            console.error("协议标题：" + protoName);
             var protoType;
             if (catchDoll.GlobeConst.isWXGame) {
                 protoType = cmd.constructor;
